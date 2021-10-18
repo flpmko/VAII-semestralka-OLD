@@ -2,6 +2,8 @@
     background-color: #333;
     overflow: hidden;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .top-nav a {
@@ -26,6 +28,11 @@
 
 .top-nav a.right {
     margin-left: auto;
+    padding-right: 30px;
+}
+
+.top-nav a.left {
+    padding-left: 30px;
 }
 
 .logo-image{
