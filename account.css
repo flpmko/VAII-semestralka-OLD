@@ -1,0 +1,24 @@
+h1 {
+    color: #575757;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.category {
+    font-weight: bold;
+}
+.data {
+
+}
