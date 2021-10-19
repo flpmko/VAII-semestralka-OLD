@@ -4,13 +4,14 @@ h1 {
     padding-top: 10px;
 }
 h2 {
-    color: #575757;
+    color: #ffffff;
     padding-left: 20px;
+    line-height: 10px;
 }
 .avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     cursor: pointer;
     margin-left: auto;
     margin-right: 100px;
@@ -27,4 +28,48 @@ h2 {
 }
 .info {
     margin-left: 20px;
+}
+.container {
+    display: flex;
+}
+.item-75 {
+    flex-basis: 75%;
+    height: fit-content;
+    margin: 5px;
+    font-size: large;
+}
+.item-25 {
+    flex-basis: 25%;
+    height: fit-content;
+    margin: 5px;
+}
+.item-10 {
+    flex-basis: 5%;
+    height: fit-content;
+    margin-left: 20px;
+}
+.item-avatar {
+    margin-top: 20px;
+}
+.item-25.right {
+    font-weight: bold;
+    font-size: large;
+    text-align: right;
+}
+.info-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.container.top {
+    background: rgb(229,74,5);
+    background: linear-gradient(0deg, rgba(229,74,5,1) 0%, rgba(255,165,0,1) 100%);
+}
+.container-heading {
+    padding-left: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 }

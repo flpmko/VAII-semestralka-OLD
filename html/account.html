@@ -25,34 +25,86 @@
         ÚČET
     </a>
 </div>
-<div class="heading">
-    <h1 class="">Môj účet</h1>
-    <img class="avatar" src="../imgs/account.png" alt="avatar">
+<div class="container top">
+    <div class="item-75">
+        <h1 class="">Môj účet</h1>
+        <h2 class="">Ahoj ferko!</h2>
+        <h2 class="">Odtiaľto si môžeš menežovať svoj profil a osobné údaje.</h2>
+    </div>
+    <div class="item-25 item-avatar">
+        <img class="avatar" src="../imgs/account.png" alt="avatar">
+    </div>
 </div>
-<div class="">
-    <h2 class="">Ahoj ferko!</h2>
-    <h2 class="">Odtiaľto si môžeš menežovať svoj profil a osobné údaje.</h2>
+<div class="container-heading">
+    <img src="../imgs/user-off.png" class="info-img" alt="user icon">
+    <h3>OSOBNÉ ÚDAJE</h3>
 </div>
-<hr/>
-<div class="info">
-    <table>
-        <tr>
-            <td class="category">používateľské meno: </td>
-            <td>ferko</td>
-        </tr>
-        <tr>
-            <td class="category">mail: </td>
-            <td>sample@gmail.com</td>
-        </tr>
-        <tr>
-            <td class="category">dátum narodenia: </td>
-            <td>17.3.1998</td>
-        </tr>
-        <tr>
-            <td class="category">pohlavie: </td>
-            <td>muž</td>
-        </tr>
-    </table>
+<div class="container">
+    <div class="item-25 right">
+        <p>krstné meno: </p>
+        <p>priezvisko: </p>
+        <p>používateľské meno: </p>
+        <p>dátum narodenia: </p>
+        <p>pohlavie: </p>
+    </div>
+    <div class="item-75">
+        <p>
+            <input id="name" type="text" value="Fero">
+            <label for="name"></label>
+        </p>
+        <p>
+            <input id="surname" type="text" value="Mrkvička">
+            <label for="surname"></label>
+        </p>
+        <p>
+            <input id="username" type="text" value="ferko">
+            <label for="username"></label>
+        </p>
+        <p>
+            <input id="date" type="date" value="1998-04-01">
+            <label for="date"></label>
+        </p>
+        <p>
+            <input id="male" type="radio" value="muž" checked>
+            <label for="male">muž</label>
+            <input id="female" type="radio" value="žena">
+            <label for="female">žena</label>
+        </p>
+    </div>
+</div>
+<div class="container-heading">
+    <img src="../imgs/email.png" class="info-img" alt="email icon">
+    <h3>KONTAKT</h3>
+</div>
+<div class="container">
+    <div class="item-25 right">
+        <p>mail: </p>
+        <p>tel. číslo: </p>
+    </div>
+    <div class="item-75">
+        <p>ferko@gmail.com</p>
+        <p>0907 123 456</p>
+    </div>
+</div>
+<div class="container-heading">
+    <img src="../imgs/address-off.png" class="info-img" alt="user icon">
+    <h3>ADRESA</h3>
+</div>
+<div class="container">
+    <div class="item-25 right">
+        <p>ulica: </p>
+        <p>mesto: </p>
+        <p>kraj: </p>
+        <p>PSČ: </p>
+        <p>štát: </p>
+    </div>
+    <div class="item-75">
+        <p>Národná 12</p>
+        <p>Horná Dolná</p>
+        <p>Prešovský</p>
+        <p>12345</p>
+        <p>Slovensko</p>
+    </div>
 </div>
 </body>
 </html>

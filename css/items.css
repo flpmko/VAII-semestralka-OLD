@@ -47,11 +47,13 @@ td:nth-child(1){
     font-weight: bold;
     font-size: x-large;
     cursor: pointer;
-    background-color: #ff8e00;
+    background: rgb(229,74,5);
+    background: linear-gradient(0deg, rgba(229,74,5,1) 0%, rgba(255,165,0,1) 100%);
     border-radius: 10px;
     box-shadow: 0 0 10px 4px rgba(54, 54, 54, 0.5);
     border: none;
 }
 .btn-rent:hover {
-    background-color: #ff8000;
+    background: rgb(180,58,136);
+    background: linear-gradient(90deg, rgba(180,58,136,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
