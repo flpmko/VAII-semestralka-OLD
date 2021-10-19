@@ -1,8 +1,6 @@
 th {
     border-bottom: 1px solid #4b4b4b;
     background-color: white;
-    position: sticky;
-    top: 50px;
 }
 tr:hover {
     background-color: #ffd5a4;
@@ -13,6 +11,7 @@ table, th, td {
 }
 table {
     width: 100%;
+    border: 1px solid black;
 }
 td, th {
     text-align: left;
@@ -39,8 +38,8 @@ td:nth-child(1){
 }
 .btn-rent {
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 5%;
+    right: 5%;
     width: 150px;
     height: 50px;
     color: white;
@@ -55,6 +54,44 @@ td:nth-child(1){
     transition: 0.5s;
 }
 .btn-rent:hover {
-    background: rgb(180,58,136);
-    background: linear-gradient(90deg, rgba(180,58,136,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 155px;
+    height: 55px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 5px;
+}
+.search-bar-input {
+    /*margin-left: auto;*/
+    padding-right: 30px;
+    width: 90%;
+    height: 30px;
+    border-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    font-size: medium;
+    transition: 0.3s;
+}
+.search-bar-input:hover{
+    width: 92%;
+    height: 35px;
+}
+.search-bar-input:focus{
+    outline-color: rgb(255, 165, 93);
+}
+.search-bar-icon {
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+    padding-left: 10px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.search-bar-icon:hover {
+    width: 35px;
+    height: 35px;
 }
