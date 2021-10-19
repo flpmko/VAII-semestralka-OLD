@@ -3,7 +3,7 @@ body {
     margin: -8px;
 }
 
-.centered {
+.centered-text {
     display: flex;
     height: 500px;
     align-items: center;

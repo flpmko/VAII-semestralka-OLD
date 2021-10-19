@@ -52,6 +52,7 @@ td:nth-child(1){
     border-radius: 10px;
     box-shadow: 0 0 10px 4px rgba(54, 54, 54, 0.5);
     border: none;
+    transition: 0.5s;
 }
 .btn-rent:hover {
     background: rgb(180,58,136);
